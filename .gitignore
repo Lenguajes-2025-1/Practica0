@@ -1,0 +1,42 @@
+# Ignore Clojure build artifacts
+*.class
+*.log
+*.jar
+*.jar.*
+*.war
+*.ear
+*.db
+*.sqlite
+*.h2.db
+
+# Ignore ClojureScript build artifacts
+*.cljs.deps.js
+*.cljs.js
+
+# Ignore Clojure REPL and temporary files
+.repl/
+*.clj.kondo/
+
+# Ignore local project configuration files
+.project
+.idea/
+*.iml
+*.swp
+*.swo
+
+# Ignore leiningen-specific files
+target/
+*.clj-*
+
+# Ignore shadow-cljs build artifacts
+.shadow-cljs/
+cljsbuild/
+
+# Ignore Emacs and Vim temporary files
+*~
+# .vscode settings
+.vscode/
+
+# Ignore private directories
+.*
+!/.gitignore
